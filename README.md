@@ -39,17 +39,18 @@ During development within a mobile Linux emulation environment (**Termux on Andr
 ```bash
 git clone [https://github.com/abk9271/gasless-token-transfer.git](https://github.com/abk9271/gasless-token-transfer.git)
 cd gasless-token-transfer
-
+```
 
 ### 2. Install Project Dependencies
 ```bash
 npm install
-
+```
 ### 3. Set Up Environment Secrets
 ```bash
 PRIVATE_KEY="your_relayer_sepolia_private_key_with_test_eth"
 ALICE_PRIVATE_KEY="your_sender_sepolia_private_key_with_zero_eth"
-
+```
 ### 4. Execute the End-to-End Simulation Pipeline
 ```bash
 node test-gasless.mjs
+```
